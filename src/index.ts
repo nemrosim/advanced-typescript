@@ -1,6 +1,3 @@
-
-
-
 class StartClass {
     private foo: string;
 
