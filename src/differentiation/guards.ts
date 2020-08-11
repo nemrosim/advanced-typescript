@@ -31,8 +31,8 @@ class NumberClass implements ValueClass {
  * @param instance
  */
 function isNumberClass(instance: ValueClass): instance is NumberClass {
-    return instance.enumType === ValueEnum.SomeComplexNumberEnumValue
-        && (instance as NumberClass).someNumberFunction !== undefined
+    return instance.enumType === ValueEnum.SomeComplexStringEnumValue
+        && (instance as NumberClass).someNumberFunction === undefined
 }
 
 // Let's check how it works
