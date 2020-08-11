@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start factory-method": "ts-node src/index.ts"
+    "start:index": "ts-node src/index.ts",
+    "start:typeof": "ts-node src/differentiation/typeof.ts"
   },
   "devDependencies": {
     "ts-node": "8.10.2",
