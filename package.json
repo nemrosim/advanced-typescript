@@ -4,9 +4,10 @@
   "license": "MIT",
   "scripts": {
     "start:index": "ts-node src/index.ts",
-    "start:typeof": "ts-node src/differentiation/typeof.ts",
-    "start:instanceof": "ts-node src/differentiation/instanceof.ts",
-    "start:guard": "ts-node src/differentiation/guards.ts"
+    "start:typeof": "ts-node src/1.differentiation/typeof.ts",
+    "start:instanceof": "ts-node src/1.differentiation/instanceof.ts",
+    "start:guard": "ts-node src/1.differentiation/guards.ts",
+    "start:union": "ts-node src/2.union-intersection-conditional/union-types.ts"
   },
   "devDependencies": {
     "ts-node": "8.10.2",
