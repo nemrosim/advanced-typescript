@@ -4,7 +4,7 @@ enum State {
 }
 
 interface ResponseBase {
-    state: State asd asd asas dasd
+    state: State
 }
 
 
