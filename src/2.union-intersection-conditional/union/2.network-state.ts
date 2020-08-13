@@ -7,6 +7,7 @@ interface ResponseBase {
     state: State asd asd asas dasd
 }
 
+
 interface RequestErrorResponse extends ResponseBase{
     state: State.Error;
     code: number
