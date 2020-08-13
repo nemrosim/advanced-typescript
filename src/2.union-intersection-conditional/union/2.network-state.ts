@@ -4,7 +4,7 @@ enum State {
 }
 
 interface ResponseBase {
-    state: State
+    state: State asd asd asas dasd
 }
 
 interface RequestErrorResponse extends ResponseBase{
