@@ -45,7 +45,7 @@ doSomethingElse(null);
 // === variant 3 ===
 
 type DoSomeProps = {
-    value?: string | number | boolean;
+    value?: string | number | boolean | null;
 }
 
 function doSome({value}: DoSomeProps) {

@@ -7,7 +7,8 @@
     "start:typeof": "ts-node src/1.differentiation/typeof.ts",
     "start:instanceof": "ts-node src/1.differentiation/instanceof.ts",
     "start:guard": "ts-node src/1.differentiation/guards.ts",
-    "start:union": "ts-node src/2.union-intersection-conditional/union-types.ts"
+    "start:union": "ts-node src/2.union-intersection-conditional/union-types.ts",
+    "start:network": "ts-node src/2.union-intersection-conditional/union/2.network-state.ts"
   },
   "devDependencies": {
     "ts-node": "8.10.2",
