@@ -4,14 +4,29 @@ enum State {
 }
 
 interface ResponseBase {
-    state: State
+    state: State as asdf asd fads fas fs
 }
+asdasd asdf
+asdsd
+asdf asdg adfv axcv
+
 
 
 interface RequestErrorResponse extends ResponseBase{
     state: State.Error;
     code: number
 }
+asd asd
+ asdasd cxcv adfsv
+ zxcv aszdfv sdzfv
+asdasdasd asdf addEventListener(asd
+
+ zxdasv zxcv onresize(sdv zx
+zxcv zdv zsd
+v zds a
+sdf sdf sdf sd
+))
+
 
 interface RequestSuccessResponse extends ResponseBase {
     state: State.Success;
